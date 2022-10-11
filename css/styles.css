@@ -1,3 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.pie-pagina {
+  background-color: rgba(184, 208, 235, 0.8274509804);
+}
+
+img {
+  width: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.titulo {
+  font-size: 25px;
+  color: black;
+}
+
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 80px;
+}
+.section div {
+  display: flex;
+  flex-direction: column;
+}
+.section h3 {
+  color: darkslategrey;
+  padding: 10px;
+}
+.section a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form input {
+  background: none;
+  border: solid;
+  padding: 10px 20px;
+}
+form button {
+  padding: 10px 20px;
+  background: white;
+  color: black;
+}
+form button:hover {
+  background-color: #84a59b;
+}
 
 /*# sourceMappingURL=styles.css.map */
