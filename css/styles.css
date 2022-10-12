@@ -34,7 +34,7 @@
 }
 
 .pie-pagina {
-  background-color: rgba(247, 239, 129, 0.8431372549);
+  background-color: #e3d5ca;
 }
 
 img {
@@ -97,7 +97,7 @@ button {
   border-radius: 20px;
 }
 button:hover {
-  background-color: turquoise;
+  background-color: rgba(255, 255, 0, 0.849);
 }
 
 /*# sourceMappingURL=styles.css.map */
