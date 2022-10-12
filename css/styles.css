@@ -1,17 +1,103 @@
-/* Error: Can't find stylesheet to import.
- *    ,
- * 16 | @import "./mixins"
- *    |         ^^^^^^^^^^
- *    '
- *   scss\main.scss 16:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a    \2577 \a 16 \2502  @import \"./mixins\"\d\a    \2502          ^^^^^^^^^^\a    \2575 \a   scss\\main.scss 16:9  root stylesheet";
+.hero {
+  height: 89vh;
+  background-image: url(../../assest/img/portada.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.hero .hero__text {
+  text-align: center;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.534);
+}
+.hero .hero__button {
+  padding: 15px 10px;
+  border: 2px solid rgba(255, 255, 0, 0.699);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.hero .hero__button:hover {
+  background-color: rgba(255, 202, 58, 0.6705882353);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.pie-pagina {
+  background-color: #e3d5ca;
+}
+
+img {
+  width: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.titulo {
+  font-size: 25px;
+  color: black;
+}
+
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 80px;
+}
+.section div {
+  display: flex;
+  flex-direction: column;
+}
+.section h3 {
+  color: darkslategrey;
+  padding: 10px;
+}
+.section a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form input {
+  background: none;
+  border: solid;
+  padding: 10px 20px;
+}
+form button {
+  padding: 10px 20px;
+  background: white;
+  color: black;
+}
+form button:hover {
+  background-color: #84a59b;
+}
+
+button {
+  padding: 15px;
+  border: 2px black;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+}
+button:hover {
+  background-color: rgba(255, 255, 0, 0.849);
+}
+
+/*# sourceMappingURL=styles.css.map */
