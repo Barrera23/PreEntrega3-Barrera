@@ -1,0 +1,14 @@
+
+@mixin titulo {
+    font-size: 40px;
+    color: black;
+    background-color: burlywood;
+    text-align: center;
+}
+
+
+
+
+h1{
+   @include titulo ();
+}
