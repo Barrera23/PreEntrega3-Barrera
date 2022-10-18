@@ -1,14 +1,17 @@
 
 @mixin titulo {
+    font-family: fantasy;
     font-size: 40px;
-    color: black;
-    background-color: burlywood;
+    color: white;
+    background-color: rgba(222, 184, 135, 0.582);
     text-align: center;
 }
 
 
 
-
-h1{
-   @include titulo ();
+h2{
+    @include titulo();
 }
+
+
+

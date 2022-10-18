@@ -1,0 +1,31 @@
+.ropa_title{
+background-color: antiquewhite;
+text-align: center;
+padding: 10px;
+}
+.ropa_contenedor{
+    padding: 10px;
+    display: flex;
+    overflow-x: auto;
+
+    gap: 20px;
+}
+
+.tarjeta{
+    background-color:#fbc4ab;
+    width: 250px;
+    border: solid 2px #bc6c25;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+    &__img{
+        width: 100%;
+
+    }
+    &__title{
+        text-align: center;
+        padding: 15px;
+    }
+}

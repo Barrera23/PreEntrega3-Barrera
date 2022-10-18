@@ -1,7 +1,8 @@
-h1 {
+h2 {
+  font-family: fantasy;
   font-size: 40px;
-  color: black;
-  background-color: burlywood;
+  color: white;
+  background-color: rgba(222, 184, 135, 0.582);
   text-align: center;
 }
 
@@ -31,6 +32,23 @@ h1 {
 }
 .hero .hero__button:hover {
   background-color: rgba(255, 202, 58, 0.6705882353);
+}
+
+.container {
+  display: flex;
+  overflow-x: scroll;
+  padding: 24px;
+  width: 300px;
+  scroll-snap-type: mandatory;
+  scroll-padding: 24px;
+  border-radius: 8px;
+  gap: 12px;
+}
+.container_item {
+  flex: 0 0 100%;
+  padding: 24px;
+  border-radius: 8px;
+  scroll-snap-align: start;
 }
 
 * {
@@ -98,13 +116,49 @@ form button:hover {
 
 button {
   padding: 15px;
+  width: 190px;
+  cursor: pointer;
+  transition: 0.5s ease;
   border: 2px black;
   text-align: center;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 button:hover {
-  background-color: rgba(255, 255, 0, 0.849);
+  background: transparent;
+  border: 2px solid #fbf8cc;
+  box-shadow: 0 0 10px 0 #fbf8cc insert, 0 0 10px 4px #fbf8cc;
+  border-radius: 10px;
+}
+
+.ropa_title {
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 10px;
+}
+
+.ropa_contenedor {
+  padding: 10px;
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.tarjeta {
+  background-color: #fbc4ab;
+  width: 250px;
+  border: solid 2px #bc6c25;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.tarjeta__img {
+  width: 100%;
+}
+.tarjeta__title {
+  text-align: center;
+  padding: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,10 +1,18 @@
 button{
     padding: 15px;
+    width: 190px;
+    cursor: pointer;
+    transition: .5s ease;
     border: 2px black;
     text-align: center;
-    text-decoration: none;
-    border-radius: 20px;
+    text-decoration:none;
+    border-radius: 10px;
 &:hover{
-        background-color: rgba(255, 255, 0, 0.849)
+    background: transparent;
+    border: 2px solid #fbf8cc;
+    box-shadow: 0 0 10px 0 #fbf8cc insert, 
+    0 0 10px 4px #fbf8cc;
+    border-radius: 10px;
+       
     }
 }
